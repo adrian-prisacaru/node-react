@@ -4,7 +4,9 @@
   "description": "App template using express, react, redux",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node .",
+    "test": "test",
+    "dev": "nodemon . -w app.js"
   },
   "keywords": [
     "template",
@@ -16,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.12.1",
     "rootpath": "^0.1.2"
   }
 }

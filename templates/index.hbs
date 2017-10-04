@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="preload" href="{{ assets.js }}" as="script">
+    {{#if assets.css }}
+        <link rel="stylesheet" type="text/css" href="{{ assets.css }}">
+    {{/if}}
+</head>
+<body>
+<div id="root">
+</div>
+
+<noscript>
+    <div class="offline-warning">
+        <h3 class="offline-warning__headline">JavaScript is disabled!</h3>
+        <p>This site requires JavaScript to be enabled in order to work.</p>
+    </div>
+</noscript>
+
+</body>
+</html>
