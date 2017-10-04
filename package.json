@@ -1,0 +1,21 @@
+{
+  "name": "node-react",
+  "version": "1.0.0",
+  "description": "App template using express, react, redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "template",
+    "express",
+    "react",
+    "redux"
+  ],
+  "author": "Adrian Prisacaru",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1",
+    "rootpath": "^0.1.2"
+  }
+}
